@@ -7,8 +7,8 @@ To use the model you are going to need:
 - OpenCV
 - Matplotlib
 - Object-Detection
+
 To install Tensorflow Object Detection API you need to follow the installation steps from [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md)
 
 ## Pictures
-
-
+![test2](https://user-images.githubusercontent.com/75722160/218282973-76c1ad0f-7ec0-4bf3-b92b-b44c33e65968.png)
