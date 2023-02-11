@@ -1,0 +1,24 @@
+item {
+  id: 1
+  name: 'asteroid'
+}
+
+item {
+  id: 2
+  name: 'black_hole'
+}
+
+item {
+  id: 3
+  name: 'galaxy'
+}
+
+item {
+  id: 4
+  name: 'nebula'
+}
+
+item {
+  id: 5
+  name: 'planet'
+}
