@@ -1,5 +1,5 @@
 # Celestial scanner
-Celestial Scanner is a satellite simulator made with Tensorflow and the Object Detection API able to detect space celestial objects like asteroids, planets, galaxies, nebulas and black holes.
+Celestial Scanner is a satellite simulator made with Tensorflow and the Object Detection API, able to detect space celestial objects like asteroids, planets, galaxies, nebulas and black holes.
 
 ## Requirements
 To use the model you are going to need:
