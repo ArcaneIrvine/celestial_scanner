@@ -2,7 +2,7 @@
 Celestial Scanner is a satellite simulator made with Tensorflow and the Object Detection API, able to detect space celestial objects like asteroids, planets, galaxies, nebulas and black holes.
 
 ### Model
-To create the model i first gathered image data of all the selestial objects i needed to detect. Asteroids, planets, galaxies, nebulas and black holes. then i labeled each object using the LabelImg tool and split them into test and training. Afterwards i created the label map of my classes and generated the tfrecords of my dataset, test and train accordingly. Next step was to get a pre-trained model from tensorflow model zoo and in my case i used the SSD MobileNet V2 FPNLite 320x320 model. Final step was to tweak the appropriate fields of the models pipeline file for my data directories and trained the model with 2000 steps and saved it, after running few tests i took the ready model and used it on this final repository.
+To create the model i first gathered image data of all the selestial objects i needed to detect, (asteroids, planets, galaxies, nebulas and black holes). I then labeled each object using the LabelImg tool and split them into test and training. Afterwards i created the label map of my classes and generated the tfrecords of my dataset, test and train accordingly. Next step was to get a pre-trained model from tensorflow model zoo and in my case i used the SSD MobileNet V2 FPNLite 320x320 model. Final step was to tweak the appropriate fields of the models pipeline file for my data directories and trained the model with 2000 steps and saved it, after running few tests i took the ready model and used it on this final repository.
 
 ## Requirements
 To use the model you are going to need:
